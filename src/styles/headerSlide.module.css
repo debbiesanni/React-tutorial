@@ -1,0 +1,180 @@
+.header {
+    background-color: #000000;
+    margin: 0;
+    width: 100%;
+    height: 556px;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.dFlex {
+    display: flex;
+    align-items: flex-end;
+    height: 556px;
+    justify-content: space-between;
+}
+.welcomeHeader {
+    height: 450px;
+}
+.dFlex img {
+    max-width: 100%;
+}
+.welcome {
+    width: 506px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    height: 174px;
+    line-height: 58px;
+    letter-spacing: 0.655606px;
+    color: #FFFFFF;
+}
+.welcome span {
+    color: #ff8019;
+    margin-left: 10px;
+}
+.welcomeHeader p {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.655606px;
+    width: 472px;
+    height: 66px;
+    color: #FFFFFF;
+}
+.welcomeHeader button {
+    width: 171px;
+    height: 50px;
+    background: #FF8019;
+    border-radius: 5px;
+    padding: 15px 26px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+@media (min-Width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+    .welcomeHeader p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.655606px;
+        width: 472px;
+        height: 66px;
+    }
+    .welcomeHeader button {
+        width: 171px;
+        height: 50px;
+        padding: 15px 26px;
+        margin-top: 2rem;
+    }
+    .welcome {
+        width: 506px;
+        font-size: 48px;
+        height: 174px;
+        line-height: 58px;
+        letter-spacing: 0.655606px;
+    }
+    .header {
+        height: 556px;
+    }
+}
+
+@media (max-Width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .dFlex {
+        height: 556px;
+    }
+    .welcomeHeader {
+        height: 450px;
+    }
+    .welcomeHeader p {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.655606px;
+        width: 384px;
+        height: 66px;
+    }
+    .welcomeHeader button {
+        width: 150px;
+        height: 50px;
+        padding: 15px 16px;
+        margin-top: 2rem;
+    }
+    .welcome {
+        width: 384px;
+        font-size: 30px;
+        height: 100px;
+        line-height: 30px;
+        letter-spacing: 0.655606px;
+    }
+    .header {
+        height:300px;
+    }
+    .dFlex {
+        height: 300px;
+    }
+    .welcomeHeader {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-Width: 640px) {
+    .container {
+        width: 400px;
+        padding: 1rem 1rem 0 1rem;
+        height: 195px;
+        background: #111111;
+        border-radius: 5px;
+    }
+    .welcomeHeader button {
+        width: 86px;
+        height: 20px;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.01em;
+        padding: 0px;
+        margin-top: 2rem;
+    }
+    .welcome {
+        font-family: "Product Sans";
+        width: 200px;
+        height: 54px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.192825px;
+        color: #FFFFFF
+    }
+    .header {
+        height: 225px;
+        padding-top: 1rem;
+    }
+    .dFlex {
+        height: 185px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .dFlex img{
+        max-width: 100%;
+    }
+    /* imageContainer */
+    .welcomeHeader {
+        height: 185px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

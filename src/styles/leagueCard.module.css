@@ -1,0 +1,112 @@
+/* .bgRed {
+    background: red;
+} */
+
+.leagueCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 276px;
+    width: 269px;
+    background: #FFFFFF;
+    border: 1px solid #C5C7CD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.leagueCardImage img {
+    max-width: 269px;
+    max-height: 129px;
+}
+
+.leagueCardDetails {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: initial;
+    background: #fff;
+    width: 269px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 6.36957px;
+}
+.descriptionLeague {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    margin: .5rem 0;
+    text-transform: uppercase;
+    color: #999999;
+    width: 171px;
+    display: -webkit-box;   
+   -webkit-line-clamp: 1;   
+   -webkit-box-orient: vertical;     
+    overflow: hidden;
+}
+
+.leagueCardTitle {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-transform: capitalize;
+    width: 191px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.leagueCardDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+.groupAttribute {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .5rem 0;
+}
+
+.leagueCardAttributeGroup {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8px !important;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #999999;
+    width: 250px;
+}
+.actionButtonContainer a {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FF8019;
+    text-decoration: none;
+}
+.actionButtonContainer {
+    margin: 1rem 0;
+}
+@media (max-Width: 960px) {
+    .leagueCard {
+        margin-right: 1rem;
+    }
+}
+@media (max-Width: 640px) {
+    .leagueCard {
+        margin-right: 1rem;
+    }
+}

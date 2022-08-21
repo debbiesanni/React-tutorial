@@ -1,0 +1,263 @@
+/* .bgRed {
+    background: red;
+} */
+
+.audioCard {
+    width: 796px;
+    height: 244.35px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.audioCardImage img {
+    max-width: 238.8px;
+    max-height: 244.35px; 
+}
+
+.audioCardDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2rem;
+    width: 557.2px;
+}
+.song {
+    display: flex;
+    justify-content: space-between;
+}
+.song p {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16.6605px;
+    line-height: 20px;
+    color: #444444;
+    text-transform: capitalize;
+}
+.song span {
+    background: #F4D067;
+    border-radius: 4.62791px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.107px;
+    padding: .3rem .7rem;
+    line-height: 13px;
+    letter-spacing: 0.01em;
+    color: #444444;
+    height: 21.29px;
+}
+
+.audioCardTitle {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.214px;
+    line-height: 27px;
+    color: #444444;
+    text-transform: uppercase;
+    width: 500px;
+    display: -webkit-box;   
+   -webkit-line-clamp: 2;   
+   -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 60px;
+
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.playAudio {
+    display: flex;
+    align-items: center;
+}
+.playAudio img {
+    background: #FF8019;
+    cursor: pointer;
+    width: 29.21px;
+    height: 29.21;
+    border: 2px solid #FF8019;
+    border-radius: 50%;
+}
+.playAudio span {
+    margin-left: 10px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.9581px;
+    line-height: 16px;
+    color: #001845;
+}
+.listen {
+    display: flex;
+    align-items: center;
+}
+.listen span {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.9581px;
+    line-height: 16px;
+    color: #FF8019;
+}
+.listen span:last-child {
+    margin-left: 5px;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.delete {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.download {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.centreCardAttributeGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centreCardDetails a {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FF8019;
+    margin-top: 2rem;
+}
+@media (max-Width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .audioCard {
+        width: 290px;
+        height: 423px;
+        background: #fcf3d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    .audioCardDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1rem;
+        background: #fcf3d9;
+        width: 290px;
+        height: 210px;
+    }
+    .audioCardImage {
+        max-width: 290px;
+        max-height: 213px;
+        background-size: url('/media/images/default/audioPlay.svg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .imageCard {
+        width: 290px;
+        height: 290px; 
+        border-radius: 5px 0px 0px 5px;
+    }
+    .audioCardTitle {
+        font-size: 18px;
+        width: 222px;
+        height: 30px;
+    }
+    .playAudio {
+        margin: 1rem 0;
+    }
+    .playAudio img {
+        background: #4F4F4F;
+        border: 2px solid #4F4F4F;
+    }
+    .downloadAudio {
+        background: #FF8019;
+        border-radius: 7.2524px;
+        width: 116.76px;
+        height: 36.02px;
+        margin: 7.2524px 0px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11.6038px;
+        line-height: 14px;
+        border: none;
+        color: #FFFFFF;
+    }
+}
+
+@media (max-Width: 640px) {
+    .container {
+        width: 400px;
+    }
+    .audioCard {
+        width: 290px;
+        height: 463px;
+        background: #fcf3d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    .audioCardDetails {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 1rem;
+        background: #fcf3d9;
+        width: 290px;
+        height: 250px;
+    }
+    .audioCardImage {
+        max-width: 290px;
+        max-height: 213px;
+        background-size: url('/media/images/default/audioPlay.svg');
+        background-position: center center;
+        background-size: cover;
+    }
+    .imageCard {
+        width: 290px;
+        height: 290px; 
+        border-radius: 5px 0px 0px 5px;
+    }
+    .audioCardTitle {
+        font-size: 18px;
+        width: 222px;
+        height: 30px;
+    }
+    .playAudio {
+        margin: 1rem 0;
+    }
+    .playAudio img {
+        background: #4F4F4F;
+        border: 2px solid #4F4F4F;
+    }
+    .downloadAudio {
+        background: #FF8019;
+        border-radius: 7.2524px;
+        width: 116.76px;
+        height: 36.02px;
+        margin: 7.2524px 0px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11.6038px;
+        line-height: 14px;
+        border: none;
+        color: #FFFFFF;
+    }
+}

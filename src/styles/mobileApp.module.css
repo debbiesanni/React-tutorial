@@ -1,0 +1,173 @@
+.header {
+    height: 528px;
+    background: #f4f4f4;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.dFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 528px;
+    position: relative;
+    align-items: flex-end;
+}
+.mobileApp {
+    display: flex;
+    height: 528px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mobileApp h2 {
+    font-family: "Product Sans";
+    width: 509px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #444444;
+    margin-bottom: 4rem;
+}
+.dFlex .logo {
+    position: absolute;
+    top: 20rem;
+    right: 6rem;
+}
+@media (max-Width: 960px) {
+    .header {
+        background-color: #F4D067;
+        height: 528px;
+    }
+    .dFlex {
+        height: 528px;
+    }
+    .container {
+        width: 700px
+    }
+    .mobileApp h2 {
+        font-size: 24px;
+        width: 300px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: bold;
+        height: 100px;
+        line-height: 25px;
+        margin-bottom: 2rem;
+    }
+    .mobileLogo {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    .mobileLogo img:first-child {
+        width: 280px;
+       /*  height: 227.68px; */
+        align-self: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-Width: 640px) {
+    .header {
+        background: #F4F4F4;
+        height: 547px;
+    }
+    .dFlex {
+        height: 527px;
+    }
+    .container {
+        width: 560px
+    }
+    .mobileApp h2 {
+    font-size: 24px;
+    width: 334px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    height: 100px;
+    line-height: 25px;
+    margin-bottom: 2rem;
+    }
+    .mobileAppImage {
+    display: flex;
+    }
+    .mobileAppImage img {
+    Width: 159.77px;
+    Height: 45.85px;
+    }
+    .mobileApp {
+    height: 50px;
+    margin: 0;
+    }
+    .mobileLogo {
+    width: 346px;
+    display: flex;
+    justify-content: center;
+    }
+    .mobileLogo img:first-child {
+    width: 219.46px;
+    height: 227.68px;
+    align-self: center;
+    margin: 0 auto;
+    }
+    .dFlex .logo {
+    top: 25rem;
+    Width: 85.94px;
+    right: 8rem;
+    Height: 20.32px;
+    }
+}
+
+@media (max-Width: 480px) {
+    .header {
+        background: #F4F4F4;
+        height: 547px;
+    }
+    .dFlex {
+        height: 527px;
+    }
+    .container {
+        width: 346px
+    }
+     .mobileApp h2 {
+        font-size: 24px;
+        width: 334px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: bold;
+        height: 100px;
+        line-height: 25px;
+        margin-bottom: 2rem;
+    }
+    .mobileAppImage {
+        display: flex;
+    }
+    .mobileAppImage img {
+        Width: 159.77px;
+        Height: 45.85px;
+    }
+    .mobileApp {
+        height: 50px;
+        margin: 0;
+    }
+    .mobileLogo {
+        width: 346px;
+        display: flex;
+        justify-content: center;
+    }
+    .mobileLogo img:first-child {
+        width: 219.46px;
+        height: 227.68px;
+        align-self: center;
+        margin: 0 auto;
+    }
+    .dFlex .logo {
+        top: 25rem;
+        Width: 85.94px;
+        right: 8rem;
+        Height: 20.32px;
+    }
+}

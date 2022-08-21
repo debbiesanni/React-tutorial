@@ -1,0 +1,28 @@
+#dropper {
+  border: "0.3px solid #b3b3b3";
+}
+
+/* unvisited link */
+.drop:link {
+  background-color: #ececec;
+}
+
+/* visited link */
+.drop:visited {
+  background-color: inherit;
+}
+
+/* mouse over link */
+.drop:hover {
+  background-color: #ececec;
+}
+
+/* selected link */
+.drop:active {
+  background-color: #f57e27;
+}
+
+#linking:hover {
+  text-decoration: underline;
+  color: #333333;
+}

@@ -1,0 +1,267 @@
+.header {
+    height: 701px;
+    background: #333333;
+}
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+.dFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 701px;
+    margin: auto 0;
+    position: relative;
+}
+.container h2 {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FF8019;
+}
+.comment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 513.93px;
+    height: 315.57px;
+    background: #FFFFFF;
+    border-radius: 12.122px;
+    padding: 60px;
+    z-index: 10;
+    position: relative;
+}
+.comment p {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #999999;
+    margin: 2rem 0;
+}
+.singleQuote {
+    display: flex;
+    justify-content: space-between;
+    width: 40px;
+}
+.comment span {
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #222222;
+    
+}
+.dotted {
+    position: absolute;
+    bottom: 2.5rem;
+    right: 16rem;
+    z-index: 0;
+}
+.avatar {
+    position: relative;
+    z-index: 12;
+}
+.avatar img {
+    box-sizing: border-box;
+    box-shadow: unset;
+    border-radius: 112.129px;
+    width: 170.54px;
+    height: 170.54px;
+    position: relative;
+    top: 5rem;
+}
+@media (max-Width: 960px) {
+    .header {
+        background-color: #333333;;
+        height: 600px;
+    }
+    .dFlex {
+        height: 600px;
+    }
+    .container {
+        width: 880px
+    }
+    .comment p {
+        font-size: 14px;
+        line-height: 150%;
+        width: 395px;
+    }
+    .container h2 {
+        width: 324px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .dFlex img  {
+        width: 100%;
+    }
+    .singleQuote {
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+    }
+    .singleQuote img {
+        width: 10.54px;
+        height: 15.37px;
+    }
+    .comment span {
+        font-size: 16px;
+        line-height: 17px;
+    }
+    .avatar img {
+        width: 120px;
+        height: 120px;
+        top: 4rem;
+    }
+    .dotted img{
+        Width: 90.92px;
+        Height: 90.01px;
+    }
+    .dotted {
+        bottom: 1.8rem;
+        right: 9.5rem;
+    }
+}
+
+@media (max-Width: 640px) {
+    .header {
+        background-color: #333333;;
+        height: 500px;
+    }
+    .dFlex {
+        height: 500px;
+    }
+    .container {
+        width: 560px
+    }
+    .comment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 334px;
+        height: 220px;
+        background: #FFFFFF;
+        border-radius: 12.122px;
+        padding: 60px;
+        z-index: 10;
+        position: relative;
+    }
+    .comment p {
+        font-size: 12px;
+        line-height: 150%;
+        width: 295px;
+    }
+    .container h2 {
+        width: 224px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .dFlex img  {
+        width: 100%;
+    }
+    .singleQuote {
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+    }
+    .singleQuote img {
+        width: 10.54px;
+        height: 15.37px;
+    }
+    .comment span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .avatar img {
+        width: 100px;
+        height: 100px;
+        top: 3rem;
+    }
+    .comment {
+        padding: 40px;
+    }
+    .dotted img{
+        Width: 54.92px;
+        Height: 56.01px;
+    }
+    .dotted {
+        bottom: 1.8rem;
+        right: 1.7rem;
+    }
+}
+
+@media (max-Width: 480px) {
+    .header {
+        background-color: #333333;;
+        height: 458px;
+    }
+    .dFlex {
+        height: 458px;
+    }
+    .container {
+        width: 400px
+    }
+    .comment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 334px;
+        height: 220px;
+        background: #FFFFFF;
+        border-radius: 12.122px;
+        padding: 60px;
+        z-index: 10;
+        position: relative;
+    }
+    .comment p {
+        font-size: 12px;
+        line-height: 150%;
+        width: 295px;
+    }
+    .container h2 {
+        width: 224px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .dFlex img  {
+        width: 100%;
+    }
+    .singleQuote {
+        display: flex;
+        justify-content: space-between;
+        width: 30px;
+    }
+    .singleQuote img {
+        width: 10.54px;
+        height: 15.37px;
+    }
+    .comment span {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .avatar img {
+        width: 100px;
+        height: 100px;
+        top: 3rem;
+    }
+    .comment {
+        padding: 40px;
+    }
+    .dotted img{
+        Width: 54.92px;
+        Height: 56.01px;
+    }
+    .dotted {
+        bottom: 1.8rem;
+        right: 1.7rem;
+    }
+}

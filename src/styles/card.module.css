@@ -1,0 +1,239 @@
+/* .bgRed {
+    background: red;
+} */
+
+.centreCard {
+    border-radius: 6.36957px;
+    display: flex;
+    height: 293px;
+    width: 529px !important;
+    box-shadow: 0px 5.09565px 12.7391px rgba(0, 0, 0, 0.1);
+    border: 1.27837px solid #EAEAEA;
+    background: #FFFFFF;
+}
+
+.centreCardImage {
+    width: 171.98px;
+    height: 90%;
+}
+
+.centreCardDetails {
+    display: flex;
+    flex-grow: initial;
+    background: #fff;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1.5rem;
+    border-radius: 6.36957px;
+}
+.description {
+    margin: 1.5rem 0;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    display: -webkit-box;   
+   -webkit-line-clamp: 3;   
+   -webkit-box-orient: vertical;     
+    overflow: hidden;
+}
+.descriptionExam {
+    margin: 1.5rem 0;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    display: -webkit-box;   
+   -webkit-line-clamp: 1;   
+   -webkit-box-orient: vertical;     
+    overflow: hidden;
+}
+
+.centreCardTitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22.9304px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    font-family: "Product Sans";
+    letter-spacing: 0.01em;
+    color: rgb(26, 3, 3)0000;
+    text-transform: capitalize;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.centreCardDescription {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+}
+
+.cardAttributes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12.287px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #999999; 
+}
+
+.cardAttributeValue{
+    margin: 0px 5px;
+}
+
+.groupAttribute {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    /* align-items:; */
+}
+
+.centreCardAttributeGroup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.centreCardDetails a {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.8348px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FF8019;
+    margin-top: 2rem;
+}
+@media (min-Width: 1200px) {
+    .container {
+        width: 1100px;
+    }
+    
+}
+
+@media (max-Width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .centreCard {
+        width: 434px;
+        height: 201px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    .centreCardImage {
+        width: 120px;
+        height: 201px;
+        display: flex;
+        align-items: stretch;
+    }
+    .imageCard {
+        max-width: 158px;
+        height: 100% !important;
+    }
+    .centreCardTitle {
+        font-family: "Product Sans";
+        width: 194.3px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+    .description {
+        width: 194.3px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin: .5rem 0; 
+    }
+    .centreCardDetails {
+        width: 276px;
+        height: 200px;
+    }
+    .cardAttributes {
+        font-size: 10px;
+        width: 95px;
+    }
+    .groupAttribute {
+        height: 40px;
+    }
+    
+}
+
+@media (max-Width: 640px) {
+    .container {
+        width: 400px;
+    }
+    .centreCard {
+        width: 334px;
+        height: 201px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 1rem;
+    }
+    .centreCardImage { 
+        width: 120px;
+        height: 201px;
+        display: flex;
+        align-items: stretch;
+    }
+    .imageCard {
+        max-width: 118px;
+        height: 100% !important;
+    }
+    .centreCardTitle {
+        font-family: "Product Sans";
+        width: 194.3px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #000000;
+    }
+    .description {
+        width: 194.3px;
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.01em;
+        color: #000000;
+        margin: .5rem 0; 
+    }
+    .centreCardDetails {
+        width: 226px;
+        height: 200px;
+    }
+    .cardAttributes {
+        font-size: 9px;
+        width: 80px;
+    }
+    .groupAttribute {
+        height: 30px;
+    }
+}

@@ -1,0 +1,198 @@
+/* .bgRed {
+    background: red;
+} */
+
+.publicationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 621px;
+    height: 262px;
+    padding: 1.5rem;
+    background: #FFFFFF;
+    border: 0.754679px solid #C5C7CD;
+    box-sizing: border-box; 
+    border-radius: 5px;
+}
+/* .subMenus {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.subMenus span {
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+.subMenus span:first-child {
+    background: #f7de95;
+    border-radius: 5px;
+    width: 62px;
+    height: 23px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    padding: .3rem .7rem;
+    color: #444444;
+    text-transform: capitalize;
+}
+.subMenus span:nth-child(2) {
+    background: #6FCF97;
+    border-radius: 5px;
+    width: 62px;
+    height: 23px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    padding: .3rem .7rem;
+    color: #444444;
+    text-transform: capitalize;
+}
+.subMenus span:last-child{
+    background: transparent;
+    border-radius: 5px;
+    width: 62px;
+    height: 23px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    padding: .3rem .7rem;
+    color: #444444;
+    text-transform: capitalize;
+}
+.publicationCardTitle {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #444444;
+    text-transform: uppercase;
+    width: 600px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.imageAvatar img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.authorContainer {
+    display: flex;
+    align-items: center;
+}
+.authorContainer p {
+    margin: 0;
+    padding: 0;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #444444;
+    text-transform: capitalize;
+}
+
+.publicationDescription p {
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #444444;
+    display: -webkit-box;   
+   -webkit-line-clamp: 4;   
+   -webkit-box-orient: vertical;     
+    overflow: hidden;
+    text-transform: capitalize;
+}
+
+.publicationLink a {
+    background: #FFFFFF;
+    border: 1px solid #FF9F1C;
+    box-sizing: border-box;
+    border-radius: 8.12825px;
+    padding: 11px 32px;
+    text-decoration: none;
+    margin: 20px 0px;
+    font-family: "Product Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FF9F1C;
+    text-transform: capitalize;
+}
+@media (max-Width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .publicationCard {
+        width: 334px;
+        height: 418px;
+        border: 0.754679px solid #C5C7CD;
+        margin-right: 1rem;
+    }
+    .publicationCardTitle {
+        width: 290px;
+    }
+    .publicationDescription p {
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+        color: #444444;
+        display: -webkit-box;   
+       -webkit-line-clamp: 11; 
+       height: 220px;  
+       -webkit-box-orient: vertical;     
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-Width: 640px) {
+    .container {
+        width: 400px;
+    }
+    .publicationCard {
+        width: 334px;
+        height: 478px;
+        border: 0.754679px solid #C5C7CD;
+        margin-right: 1rem;
+    }
+    .publicationCardTitle {
+        width: 290px;
+    }
+    .publicationDescription p {
+        font-family: "Product Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: 0.01em;
+        color: #444444;
+        display: -webkit-box;   
+       -webkit-line-clamp: 11; 
+       height: 280px;  
+       -webkit-box-orient: vertical;     
+        overflow: hidden;
+        text-transform: capitalize;
+    }
+}
